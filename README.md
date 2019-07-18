@@ -29,7 +29,7 @@ Na história 2, o CPF precisa ser válido.
 
 Na história 2, o usuário só poderá avançar caso os campos obrigatórios estejam preenchidos.
 
-Na história 3, você pode usar a API da viacep`https://viacep.com.br/ws/${cep}/json/`
+Na história 3, você pode usar a API da [VIACEP](https://viacep.com.br/ws/${cep}/json/)
 
 Na história 3, o usuário só poderá avançar se os dados estiverem completos
 
