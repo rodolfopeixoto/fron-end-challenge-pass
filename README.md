@@ -7,40 +7,38 @@ Você recebeu a tarefa de desenvolver algumas features para uma empresa do segme
 
 A Análise de Negócios mapeou as seguintes histórias em ordem de prioridade:
 
-1. Eu como usuário desejo enviar minha foto e visualizar qual foto enviei para caso deseje alterar, enviando outra.
-2. Eu como usuário desejo poder cadastrar meu nome completo, cpf, celular e após concluir poderei cadastrar data de nascimento e Gênero.
-3. Eu como usuário, após avançar da primeira parte do cadastro desejo poder cadastrar um CEP e automaticamente meus dados como Enderenço, Número, complemento, bairro, cidade e estado serão completados.
-4. Eu como usuário, após concluir o meu cadastro de endereço, desejo avançar para a próxima tela, onde poderei visualizar os planos que desejarei visualizar um
-efeito Carousel slider.
-5. Eu como usuário na tela de planos desejo visualizar uns gifs no slide.
-6. Eu como usuário desejo visualizar uma tela de que o cadastro foi concluído com sucesso, após avançar na tela de Planos.
+1. Eu como usuário desejo enviar minha foto e visualizar qual foto enviei para caso deseje alterar, possa enviar uma outra.
+2. Eu como usuário desejo cadastrar meu nome completo, cpf, celular (obrigatórios) e poderei cadastrar data de nascimento e Gênero (opcionais).
+3. Eu como usuário, após avançar da primeira parte do cadastro desejo poder cadastrar um CEP e automaticamente meus dados como Enderenço, Número, Bairro, Cidade e Estado serão completados.
+4. Eu como usuário, após concluir o meu cadastro de endereço, desejo avançar para a próxima tela, onde poderei visualizar os planos num efeito Carousel.
+Para ficar mais divertido, eu como usuário, na tela de planos, desejo visualizar um gif em cada slide de plano. Esse gif pode ser aleatório ou associado a academias ou atividades de musculação.
+Não precisar ser algo grande.
+5. Eu como usuário desejo visualizar uma tela de que o cadastro foi concluído com sucesso, após avançar na tela de Planos.
 
 
 ## Detalhes técnicos
 
-Na história 1, faça o upload local e a mudança da imagem para que o usuário possa visualizar a imagem que está em no temporário.
+Na história 1, faça o upload local e a mudança da imagem para que o usuário possa visualizar a imagem.
 
+Na história 2, os campos NOME, CPF e CELULAR são obrigatórios e os demais opcionais. Você também precisa validar todos os campos de acordo com formatação. 
 
-Na história 2, o usuário só poderá preencher os dados como data de nascimento e gênero se os dados como NOME, CPF e CELULAR estiverem preenchidos.
-
-Na história 2, mostrar uma mensagem para o usuário de que o campo é obrigatório.
+Em todas as telas, ao clicar em avançar, se houver algum campo obrigatório não preenchido, ou algum campo inválido, esses items precisam ser destacados para o usuário e o 
+mesmo não poderá avançar até preencher corretamente os campos.
 
 Na história 2, o CPF precisa ser válido.
 
-Na história 2, o usuário só poderá avançar caso os campos obrigatórios estejam preenchidos.
-
 Na história 3, você pode usar a API da [VIACEP](https://viacep.com.br/ws/${cep}/json/)
 
-Na história 3, o usuário só poderá avançar se os dados estiverem completos
+Na história 3, o usuário só poderá avançar se os dados estiverem completos.
 
 Na história 4, você poderá consumir o giphy da API [Data Giphy](https://developers.giphy.com/docs/api/endpoint) e adicionar 5 giphys em qualquer parte da tela de plano.
-
-Na história 5, o usuário poderá visualizar outros planos, então você precisará colocar uns 5 planos só altere o nome no plano, por exemplo na imagem do figma está, mega
+Conforme mencionado anteriormente, você pode usar giphys aleatórios ou relacionados a academias ou musculação. O usuário poderá visualizar outros planos, então você precisará mockar 
+5 planos alterando o nome no plano, descrição e valor. Por exemplo na imagem do figma está, mega
 então adicione: Fit, Omega, Beta e Ultra com os valores respectivamente: R$200, R$300, R$400 e R$500.
 
 ## Orientações gerais
 
-* Siga as histórias na ordem de prioridade. Procure focar em pequenos entregáveis. Tudo bem se não conseguir entregar tudo, mas faça o máximo que puder no tempo proposto que são 7 dias.
+* Siga as histórias na ordem de prioridade. Procure focar em pequenos entregáveis. Tudo bem se não conseguir entregar tudo, mas faça o máximo que puder no tempo proposto que são 7 dias corridos.
 * Nós iremos avaliar a qualidade no código, as boas práticas e sua atenção com a qualidade na implementação. Tenha atenção aos detalhes e
 busque tratar condições de cross-browser, responsividade, experiência do usuário, fidelidade ao layout no figma.
 * O README deverá ter instruções detalhadas de como rodar a aplicação. 
