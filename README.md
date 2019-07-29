@@ -1,6 +1,6 @@
 # FRON-END Challenge
 
-## O Desafio
+## O Desafio Mobile
 
 Você recebeu a tarefa de desenvolver algumas features para uma empresa do segmento fitness.
 
@@ -39,6 +39,7 @@ então adicione: Fit, Omega, Beta e Ultra com os valores respectivamente: R$200,
 ## Orientações gerais
 
 * Siga as histórias na ordem de prioridade. Procure focar em pequenos entregáveis. Tudo bem se não conseguir entregar tudo, mas faça o máximo que puder no tempo proposto que são 7 dias corridos.
+* O foco da tarefa é somente pensando no mobile.
 * Nós iremos avaliar a qualidade no código, as boas práticas e sua atenção com a qualidade na implementação. Tenha atenção aos detalhes e
 busque tratar condições de cross-browser, responsividade, experiência do usuário, fidelidade ao layout no figma.
 * O README deverá ter instruções detalhadas de como rodar a aplicação. 
