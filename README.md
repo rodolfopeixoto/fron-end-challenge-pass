@@ -49,8 +49,8 @@ busque tratar condições de cross-browser, responsividade, experiência do usu�
 * Documentação da API: [Current giphy data](https://developers.giphy.com/docs/api/)
 * Acesso ao Projeto a ser seguido: [Figma](https://www.figma.com)
 ```
-email: produto@totalpass.com.br
-senha: teste1234
+Link: https://www.figma.com/file/1v1AXVFBwzc7niX6bMQgcG/teste?node-id=0%3A1
+Através do link, faça sua conta no figma e possa visualizar com detalhes, atributos de estilos dos elementos que compõe o design
 ```
  Acesse o projeto teste onde terá 4 telas para você seguir e exportar os icones que precisar.
 
