@@ -59,6 +59,4 @@ Link: https://www.figma.com/file/1v1AXVFBwzc7niX6bMQgcG/teste?node-id=0%3A1
 * Caso tenha sugestões de melhorias ou críticas em relação ao desafio ou estrutura inicial do projeto, sinta-se à vontade de nos enviar via e-mail.
 
 ## PLUS NA ATIVIDADE
-
-* Paginação com giffs retornando os primeiros 5 e de alguma forma carregar mais nas outras páginas
 * Transformar a página em PWA
