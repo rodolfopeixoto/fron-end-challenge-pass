@@ -9,7 +9,7 @@ A Análise de Negócios mapeou as seguintes histórias em ordem de prioridade:
 
 1. Eu como usuário desejo enviar minha foto e visualizar qual foto enviei para caso deseje alterar, possa enviar uma outra.
 2. Eu como usuário desejo cadastrar meu nome completo, cpf, celular (obrigatórios) e poderei cadastrar data de nascimento e Gênero (opcionais).
-3. Eu como usuário, após avançar da primeira parte do cadastro desejo poder cadastrar um CEP e automaticamente meus dados como Enderenço, Número, Bairro, Cidade e Estado serão completados.
+3. Eu como usuário, após avançar da primeira parte do cadastro desejo poder cadastrar um CEP e automaticamente meus dados como Enderenço, Número, Bairro, Cidade e Estado serão completados. Apenas esses campos são obrigatórios.
 4. Eu como usuário, após concluir o meu cadastro de endereço, desejo avançar para a próxima tela, onde poderei visualizar os planos num efeito Carousel.
 Para ficar mais divertido, eu como usuário, na tela de planos, desejo visualizar um gif em cada slide de plano. Esse gif pode ser aleatório ou no tema de atividades relacionadas a academia (fica a escolha do candidato).
 Não precisar ser algo grande.
