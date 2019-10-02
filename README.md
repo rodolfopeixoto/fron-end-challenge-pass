@@ -50,8 +50,8 @@ busque tratar condições de cross-browser, responsividade, experiência do usu�
 * Acesso ao Projeto a ser seguido: [Figma](https://www.figma.com)
 ```
 Link: https://www.figma.com/file/1v1AXVFBwzc7niX6bMQgcG/teste?node-id=0%3A1
-Através do link, faça sua conta no figma e possa visualizar com detalhes, atributos de estilos dos elementos que compõe o design
 ```
+ Através do link acima, faça sua conta no figma e possa visualizar com detalhes, atributos de estilos dos elementos que compõe o design.
  Acesse o projeto teste onde terá 4 telas para você seguir e exportar os icones que precisar.
 
 * Faça testes unitários para models e serviços. Testes de integração também são bem vindos.
